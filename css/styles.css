@@ -24,23 +24,21 @@ li {
     padding: 40px;
 } */
 
+.navbar {
+    width: 100%;
+}
+
 #navbar-primary .navbar-nav {
     //  background: #4B3F2D;
     width: 100%;
     text-align: center;
-    >li {
-        display: inline-block;
-        float: none;
-        color: #fff;
-        >a {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    }
+    align-content: center;
+    display: block;
 }
 
 .bg-dark {
     background-color: #4B3F2D!important;
+    align-content: center;
 }
 
 .nav li {
@@ -50,6 +48,7 @@ li {
     line-height: 60px;
     padding: 0 80px;
     color: #ffffff;
+    float: none;
 }
 
 .nav a {
@@ -70,10 +69,6 @@ li {
 .log {
     z-index: -1;
     position: relative;
-}
-
-.navPlacement {
-    align-content: center;
 }
 
 
