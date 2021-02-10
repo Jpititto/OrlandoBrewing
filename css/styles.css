@@ -76,3 +76,94 @@ body {
     margin-bottom: 0;
  }
  
+ /* daily specials image */
+body {
+   margin: 0;
+   padding: 0;
+}
+.dailyspecials {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.dailyspecials::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(../Images/Main\ Page\ Pup\ Image.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: brightness(60%);
+}
+.dailyspecials-content {
+   position: relative;
+   font-family: "Clarendon URW", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+}
+.dailyspecials-title {
+   font-size: 3rem;
+   font-weight: 600;
+   margin-bottom: 0;
+}
+/* responsive map on find our beer page */
+.map-responsive{
+   overflow:hidden;
+   padding-bottom:50%;
+   position:relative;
+   height:0;
+}
+.map-responsive iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+}
+
+/* Find our Beer Hero Image */
+body {
+   margin: 0;
+   padding: 0;
+}
+.findourbeerhero {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.findourbeerhero::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(../Images/Find\ Beer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: brightness(60%);
+}
+.findourbeerhero-content {
+   position: relative;
+   font-family: "Clarendon URW", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+}
+.findourbeerhero-title {
+   font-size: 3rem;
+   font-weight: 600;
+   margin-bottom: 0;
+}
