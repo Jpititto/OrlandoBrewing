@@ -15,6 +15,7 @@ li {
     font-family: 'Clarendon URW', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+    overflow: auto;
 }
 
 
@@ -86,7 +87,7 @@ body {
 
 .hero {
     /* position: relative; */
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -121,6 +122,7 @@ body {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 0;
+    text-align: bottom;
 }
 
 
@@ -133,7 +135,7 @@ body {
 
 .dailyspecials {
     position: relative;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -168,74 +170,32 @@ body {
     margin-bottom: 0;
 }
 
-/* Find our Beer Hero Image */
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.findourbeerhero {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.findourbeerhero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(../Images/Find\ Beer.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    filter: brightness(60%);
-}
-
-.findourbeerhero-content {
-    position: relative;
-    font-family: "Clarendon URW", sans-serif;
-    color: white;
-    text-align: center;
-    margin: 0.625rem;
-}
-
-.findourbeerhero-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-
-
 /* About Us hero image */
 body {
     margin: 0;
     padding: 0;
 }
 .auhero {
+    border: 3px solid red;
+    /* background: url(../Images/About\ Us.png);
     position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .auhero::before {
     content: "";
+    margin: 0 auto;
     position: absolute;
-    top: 0;
+    top: -1;
     left: 0;
     width: 100%;
     height: 100%;
     background: url(../Images/About\ Us.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center center;
     filter: brightness(60%);
 }
@@ -285,12 +245,10 @@ body {
 
 
 /* Menu hero image */
-
 body {
     margin: 0;
     padding: 0;
 }
-
 .menuhero {
     position: relative;
     width: 100vw;
@@ -299,7 +257,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .menuhero::before {
     content: "";
     position: absolute;
@@ -307,26 +264,21 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../Images/Beer\ Menu.png);
+    background: url(../Images/MenuIMG.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     filter: brightness(60%);
 }
-
 .menuhero-content {
     position: relative;
-    font-family: "Clarendon URW", sans-serif;
     color: white;
+    font-family: "Clarendon URW", sans-serif;
     text-align: center;
+    font-size: 63px;
     margin: 0.625rem;
 }
 
-.menuhero-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0;
-}
 
 /* responsive map on find our beer page */
 
@@ -345,6 +297,7 @@ body {
     position: absolute;
 }
 
+/* View More button */
 .btn {
 border-color:#4B3F2D;
 color: white;
@@ -361,3 +314,19 @@ align-content: center;
 
 }
 
+.fobhero {
+    background-image: url(../Images/Find\ Beer.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.featuredbrews-title{
+    justify-content: center;
+    padding-top: 60px;
+    color:#4B3F2D;
+}
+
+.jumbotron{
+    background: url(../Images/Main\ Page\ Pup\ Image.png);
+}
