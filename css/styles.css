@@ -35,7 +35,7 @@ li {
 #navbar-primary .navbar-nav {
     /* background: #4B3F2D; */
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     align-content: center;
     display: block;
 }
@@ -43,6 +43,10 @@ li {
 .bg-dark {
     background-color: #4B3F2D!important;
     align-content: center;
+}
+
+.nav ul {
+    list list-style: none;
 }
 
 .nav li {
@@ -53,11 +57,13 @@ li {
     padding: 0 40px;
     color: #ffffff;
     float: none;
+    font-size: 25pt;
 }
 
 .nav a {
     color: #ffffff;
     text-decoration: none;
+    width: 25%;
 }
 
 .nav li:hover {
@@ -76,10 +82,16 @@ li {
     position: relative;
 }
 
-
-/* .nav ul{
-   align-content: center;
-} */
+.menulinkleft{
+    text-align: end;
+    padding-right: 80px;
+    
+    
+}
+.menulinkright{
+    text-align: start;
+    padding-left: 80px;
+}
 
 
 /* hero image */
@@ -149,7 +161,8 @@ li {
     position: absolute;
     top: 0px;
     z-index: 5;
-    left: 50px;
+    left: 0px;
+    right: 0px;
     /* 
     left:0;
     right: 0; */
@@ -268,6 +281,61 @@ align-content: center;
       
 }
 
-.jumbotron{
-    background: url(../Images/Main\ Page\ Pup\ Image.png);
+/* Find Our Beer hero image */
+#findourbeer {
+    position: relative;
+    text-align: center;
 }
+
+#findourbeer img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+#findourbeer h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+    color: white;
+    z-index: 2;
+}
+
+/* Media Queries */
+
+@media (max-width: 1223px) {
+    .nav li {
+        font-size: 14pt;}
+
+}
+
+@media (max-width: 910px) {
+    .nav li {
+        padding: 0 20px;
+        font-size: 14pt;
+        
+        }
+
+}
+@media (max-width: 750px) {
+    .nav li {
+        padding: 0 20px;
+        font-size: 14pt;
+        }
+    .hideMenu{
+        display: none;
+    }
+}
+@media (min-width: 910px) {
+    .hideMenuMobile {
+        display: none;
+    }
+    .navbar-toggler{
+        display: none;}
+    }
+    #navbarToggleExternalContent{
+        display: none;
+    } 
+}
+

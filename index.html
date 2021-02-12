@@ -13,29 +13,48 @@
     </head>
 
     <body>
-        <header>
         <!-- navigation bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div id="logo">
+            <a href="index.html">
+                <img class="logo" id="logo-navbar-middle" src="../OrlandoBrewing/Images/OB-Logo.png" width="200" alt="main logo">
+            </a>
+        </div>
+        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark hideMenu">
+                <!--  Show this only on mobile to medium screens  -->
+                <nav id="navbar-primary" class="navbar" role="navigation">
+                    <div class="container-fluid">
 
-            <!--  Show this only on mobile to medium screens  -->
-            <nav id="navbar-primary" class="navbar" role="navigation">
-                <div class="container-fluid">
-
-                    <!-- <div class="collapse navbar-collapse" id="navbar-primary-collapse"> -->
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="aboutus.html">About Us</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <!-- <li> -->
-                        <a href="index.html"><img class="logo" id="logo-navbar-middle" src="../OrlandoBrewing/Images/OB-Logo.png" width="200" alt="main logo"></a>
-                        <!-- </li> -->
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="findourbeer.html">Find our Beer</a></li>
-                    </ul>
-                    <!-- </div> -->
-                    <!-- /.navbar-collapse -->
+                        <!-- <div class="collapse navbar-collapse" id="navbar-primary-collapse"> -->
+                        <div class="col menulinkleft">
+                            <ul class="nav navbar-nav">
+                            <li class="active"><a href="aboutus.html">About Us</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                        </ul></div> 
+                        <div class="col menulinkright">
+                            <ul class="nav navbar-nav">
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="findourbeer.html">Our Beers</a></li>
+                        </ul></div>
+            </nav></nav>                
+                        <!-- /.navbar-collapse -->
+                    <div class="collapse hideMenuMobile" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                          <h5 class="text-white h4">Collapsed content</h5>
+                          <span class="text-muted">Toggleable via the navbar brand.</span>
+                        </div>
+                      </div>
+                      <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        </div>
+                      </nav>
                 </div>
                 <!-- /.container-fluid -->
-            </nav>
+            
         </header>
 
         <!-- Hero image -->
