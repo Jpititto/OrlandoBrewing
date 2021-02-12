@@ -168,25 +168,6 @@ body {
     margin-bottom: 0;
 }
 
-
-/* responsive map on find our beer page */
-
-.map-responsive {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-    height: 0;
-}
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-
 /* Find our Beer Hero Image */
 
 body {
@@ -233,13 +214,11 @@ body {
 
 
 /* About Us hero image */
-
 body {
     margin: 0;
     padding: 0;
 }
-
-.aboutushero {
+.auhero {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -247,8 +226,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.aboutushero::before {
+.auhero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -261,30 +239,21 @@ body {
     background-position: center center;
     filter: brightness(60%);
 }
-
-.aboutushero-content {
+.auhero-content {
     position: relative;
-    font-family: "Clarendon URW", sans-serif;
     color: white;
+    font-family: "Clarendon URW", sans-serif;
     text-align: center;
+    font-size: 63px;
     margin: 0.625rem;
 }
 
-.aboutushero-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-
-
 /* Events hero image */
-
 body {
     margin: 0;
     padding: 0;
 }
-
-.aboutushero {
+.eventshero {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -292,7 +261,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .eventshero::before {
     content: "";
     position: absolute;
@@ -306,19 +274,13 @@ body {
     background-position: center center;
     filter: brightness(60%);
 }
-
 .eventshero-content {
     position: relative;
-    font-family: "Clarendon URW", sans-serif;
     color: white;
+    font-family: "Clarendon URW", sans-serif;
     text-align: center;
+    font-size: 63px;
     margin: 0.625rem;
-}
-
-.eventshero-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0;
 }
 
 
@@ -365,3 +327,37 @@ body {
     font-weight: 600;
     margin-bottom: 0;
 }
+
+/* responsive map on find our beer page */
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.btn {
+border-color:#4B3F2D;
+color: white;
+background-color: #4B3F2D;
+height: 50px;
+width: 200px;
+padding-top: 15px;
+text-align: center;
+font-family: "Clarendon URW", sans-serif;
+text-shadow:none;
+font-size: 30;
+justify-content: center;
+align-content: center;
+
+}
+
