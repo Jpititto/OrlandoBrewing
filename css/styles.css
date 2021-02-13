@@ -84,13 +84,15 @@ li {
 
 .menulinkleft{
     text-align: end;
-    padding-right: 80px;
-    
+    padding-right: 100px;
+    z-index: 5;
     
 }
 .menulinkright{
     text-align: start;
-    padding-left: 80px;
+    padding-left: 100px;
+    z-index: 5;
+
 }
 
 
@@ -160,7 +162,7 @@ li {
 #logo {
     position: absolute;
     top: 0px;
-    z-index: 5;
+    z-index: 2;
     left: 0px;
     right: 0px;
     /* 
