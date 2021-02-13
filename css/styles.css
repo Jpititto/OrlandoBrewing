@@ -159,6 +159,7 @@ li {
     z-index: 2;
 }
 
+
 #logo {
     position: absolute;
     top: 0px;
@@ -171,7 +172,10 @@ li {
     text-align: center;
 }
 
-
+#menu {
+    position: relative;
+    text-align: center;
+}
 
 /* Events hero image */
 
@@ -245,7 +249,8 @@ li {
     overflow: hidden;
     padding-bottom: 50%;
     position: relative;
-    height: 0;
+    height: 20;
+    margin-bottom: 20px;
 }
 
 .map-responsive iframe {
@@ -254,7 +259,6 @@ li {
     height: 100%;
     width: 100%;
     position: absolute;
-    padding-top: 100px;
 }
 
 /* View More button */
