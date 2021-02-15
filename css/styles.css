@@ -19,12 +19,6 @@ li {
 }
 
 
-/* .nav {
-    background: #4B3F2D;
-    height: 60px;
-    padding: 40px;
-} */
-
 .navbar {
     width: 100%;
     padding: 0;
@@ -128,6 +122,18 @@ li {
     color: white;
     text-align: center;
     margin: 0.625rem;
+    padding-top: 710px;
+    font-size: 44px;
+}
+
+#aboutUs-content {
+    position: relative;
+    font-family: "Clarendon URW", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+    font-size: 44px;
+    
 }
 
 .hero-title {
