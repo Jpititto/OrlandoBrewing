@@ -51,7 +51,7 @@ li {
     padding: 0 40px;
     color: #ffffff;
     float: none;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 .nav a {
@@ -61,7 +61,8 @@ li {
 }
 
 .nav li:hover {
-    background: #f9a61a;
+    background-color: #f9a61a;
+    color: #f9a61a;
     transition: background .3s;
     
 }
@@ -122,18 +123,20 @@ li {
     color: white;
     text-align: center;
     margin: 0.625rem;
-    padding-top: 710px;
-    font-size: 44px;
+    padding-top: 590px;
+    font-size: 80px;
 }
 
-#aboutUs-content {
+
+
+/* #aboutUs-content {
     position: relative;
     font-family: "Clarendon URW", sans-serif;
     color: white;
     text-align: center;
     margin: 0.625rem;
     font-size: 44px;
-    
+     */
 }
 
 .hero-title {
@@ -145,7 +148,7 @@ li {
 
 
 /* About Us hero image */
-#aboutUs {
+/* #aboutUs {
     position: relative;
     text-align: center;
 }
@@ -156,14 +159,14 @@ li {
     z-index: 1;
 }
 #aboutUs h1 {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
     padding-top: 40px;
     color: white;
     z-index: 2;
-}
+} */
 
 
 #logo {
@@ -178,9 +181,9 @@ li {
     text-align: center;
 }
 
-#menu {
+/* #menu {
     position: relative;
-    text-align: center;
+    text-align: center; */
 }
 
 /* Events hero image */
@@ -218,7 +221,7 @@ li {
 
 /* Menu hero image */
 
-.menuhero {
+/* .menuhero {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -245,10 +248,13 @@ li {
     font-family: "Clarendon URW", sans-serif;
     text-align: center;
     font-size: 63px;
-    margin: 0.625rem;
+    margin: 0.625rem; */
 }
 
 
+.seasonalBeers {
+    padding-top: 100px;
+}
 /* responsive map on find our beer page */
 
 .map-responsive {
@@ -281,9 +287,16 @@ text-shadow:none;
 font-size: 30;
 justify-content: center;
 align-content: center;
+text-decoration: none;
 
 }
 
+.btn:hover {
+    background-color: #36BDB9;
+    border:#36BDB9;
+    color:#4B3F2D;
+
+}
 
 .featuredbrews-title{
     justify-content: center;
@@ -294,7 +307,7 @@ align-content: center;
 }
 
 /* Find Our Beer hero image */
-#findourbeer {
+/* #findourbeer {
     position: relative;
     text-align: center;
 }
@@ -311,7 +324,7 @@ align-content: center;
     right: 0;
     padding-top: 40px;
     color: white;
-    z-index: 2;
+    z-index: 2; */
 }
 
 /* Media Queries */
