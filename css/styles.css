@@ -22,7 +22,7 @@ li {
 .navbar {
     width: 100%;
     padding: 0;
-    padding: 5px 0;
+    padding: 10px 0;
     margin: 0;
 }
 
@@ -70,7 +70,7 @@ li {
 }
 
 .p-2 {
-    padding: .5rem 2rem!important;
+    padding: 1rem 2rem!important;
 }
 
 
@@ -158,6 +158,7 @@ li {
     z-index: 2;
     left: 0px;
     right: 0px;
+    
     /* 
     left:0;
     right: 0; */
@@ -345,4 +346,34 @@ li {
     #navbarToggleExternalContent {
         display: none;
     }
+}
+
+.topMenu{
+    padding-top: 8rem;
+}
+
+.topAbout{
+    padding-top: 8rem;
+}
+
+.findOurBeer{
+    padding-top: 8rem;
+}
+
+.findOurBeerToo{
+    padding-top: 4rem;
+}
+
+.eventsPage{
+    padding-top: 12rem;
+}
+
+.accordion-button{
+    background-color: #36BDB9;
+    color:#4B3F2D;
+
+} 
+
+.eventsBottom{
+    padding-top: 18rem;
 }
