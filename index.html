@@ -1,61 +1,47 @@
 <!DOCTYPE html>
-
 <html>
-
     <head>
         <title>Orlando Brewing Website</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
-        
-    
-    
     </head>
-
     <body>
         <!-- navigation bar -->
-
-        
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark hideMenu">
-                <!--  Show this only on mobile to medium screens  -->
-                <nav id="navbar-primary" class="navbar" role="navigation">
-                    <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBrew" aria-controls="navbarBrew" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
 
-                        <!-- <div class="collapse navbar-collapse" id="navbar-primary-collapse"> -->
-                        <div class="col menulinkleft">
-                            <ul class="nav navbar-nav">
-                            <li class="active"><a href="aboutus.html">About Us</a></li>
-                            <li><a href="menu.html">Menu</a></li>
-                        </ul></div> 
-                        <div class="col menulinkright">
-                            <ul class="nav navbar-nav">
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="findourbeer.html">Find Our Beer</a></li>
-                        </ul></div>
-            </nav></nav>                
-                        <!-- /.navbar-collapse -->
-                    <div class="collapse hideMenuMobile" id="navbarToggleExternalContent">
-                        <div class="bg-dark p-4">
-                          <h5 class="text-white h4">Collapsed content</h5>
-                          <span class="text-muted">Toggleable via the navbar brand.</span>
-                        </div>
-                      </div>
-                      <nav class="navbar navbar-dark bg-dark">
-                        <div class="container-fluid">
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                        </div>
-                      </nav>
+                  <div class="collapse navbar-collapse justify-content-md-center" id="navbarBrew">                      
+                    <ul class="navbar-nav me-auto ms-auto">
+                      <li class="nav-item p-2">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                      </li>
+                      <li class="nav-item p-2">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto ms-auto">
+                      <li class="nav-item p-2">
+                        <a class="nav-link" href="events.html">Events</a>
+                      </li>
+                      <li class="nav-item p-2">
+                        <a class="nav-link" href="findourbeer.html">Find our Beer</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <!-- /.container-fluid -->
-                <div id="logo">
-                    <a href="index.html">
-                        <img class="logo" id="logo-navbar-middle" src="../OrlandoBrewing/Images/OB-Logo.png" width="200" alt="main logo">
-                    </a>
-                </div>
+              </nav>
+            <!-- /.container-fluid -->
+            <div id="logo">
+                <a href="index.html">
+                    <img class="logo" id="logo-navbar-middle" src="../OrlandoBrewing/Images/OB-Logo.png" width="200" alt="main logo">
+                </a>
+            </div>
         </header>
 
         <!-- Hero image -->
@@ -69,43 +55,33 @@
         
         <!-- Featured Brews -->
         <div class="container">
-        <div class="row">
-            
-            <div class="col-md-2">
-                <img class="image-fluid" src="Images/hop icon.png" alt="Hop Icon"/>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="image-fluid" src="Images/hop icon.png" alt="Hop Icon"/>
+                </div>
+                <div class="col-md-10 justify-content-left">
+                    <h1 class="featuredbrews-title">
+                        Featured Brews
+                    </h1>
+                </div>
             </div>
-            
-            <div class="col-md-10 justify-content-left">
-                <h1 class="featuredbrews-title">
-                    Featured Brews
-                </h1>
-            </div>
-        
-        </div>
-  
-        <div class="col-12 d-flex justify-content-center>">
+            <div class="col-12 d-flex justify-content-center>">
                 <img class="img-fluid" src="Images/Home - Featured Brews.png" alt="Featured Brews"/>
             </div>
-        </div>​
-                
-        
+        </div>
         <div class="col-12 d-flex justify-content-center mb-5">
             <a href="menu.html" class="btn btn-link" role="button">View More</a>
         </div>
 
-    
         <!-- Daily Specials -->
         <div class="container-fluid">
             <img src="Images/Daily Specials Menu.png" alt="Pup" style="width:100%;">
         </div>
+
+        <footer class="container-fluid">
+            <img src="Images/Footer.png" alt="Footer" style="width:100%">   
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
-
-
-    <footer class="container-fluid">
-            <img src="Images/Footer.png" alt="Footer" style="width:100%;">
-                
-    </footer>
-
-
-
 </html>

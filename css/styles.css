@@ -26,6 +26,11 @@ li {
     margin: 0;
 }
 
+#navbarBrew,
+.navbar-toggler {
+    z-index: 4;
+}
+
 #navbar-primary .navbar-nav {
     /* background: #4B3F2D; */
     width: 100%;
@@ -35,7 +40,7 @@ li {
 }
 
 .bg-dark {
-    background-color: #4B3F2D!important;
+    background-color: #4B3F2D !important;
     align-content: center;
 }
 
@@ -43,33 +48,20 @@ li {
     list list-style: none;
 }
 
-.nav li {
-    display: inline-block;
-    list-style: none;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 40px;
-    color: #ffffff;
-    float: none;
-    font-size: 20pt;
-}
-
 .nav a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     width: 25%;
 }
 
-.nav li:hover {
-    background-color: #f9a61a;
-    color: #f9a61a;
+.navbar-nav li:hover {
+    background: #f9a61a;
     transition: background .3s;
-    
 }
 
 .nav-link {
-    color: #fff;
-    text-decoration: none;
+    color: #fff !important;
+    font-size: 20pt;
 }
 
 .log {
@@ -77,17 +69,8 @@ li {
     position: relative;
 }
 
-.menulinkleft{
-    text-align: end;
-    padding-right: 100px;
-    z-index: 5;
-    
-}
-.menulinkright{
-    text-align: start;
-    padding-left: 100px;
-    z-index: 5;
-
+.p-2 {
+    padding: .5rem 2rem!important;
 }
 
 
@@ -114,7 +97,7 @@ li {
     background: url(../Images/hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
 }
 
 .hero-content {
@@ -196,6 +179,7 @@ li {
     justify-content: center;
     align-items: center;
 }
+
 .eventshero::before {
     content: "";
     position: absolute;
@@ -209,6 +193,7 @@ li {
     background-position: center center;
     filter: brightness(60%);
 }
+
 .eventshero-content {
     position: relative;
     color: white;
@@ -255,6 +240,7 @@ li {
 .seasonalBeers {
     padding-top: 100px;
 }
+
 /* responsive map on find our beer page */
 
 .map-responsive {
@@ -275,35 +261,35 @@ li {
 
 /* View More button */
 .btn {
-border-color:#4B3F2D;
-color: white;
-background-color: #4B3F2D;
-height: 50px;
-width: 200px;
-padding-top: 15px;
-text-align: center;
-font-family: "Clarendon URW", sans-serif;
-text-shadow:none;
-font-size: 30;
-justify-content: center;
-align-content: center;
-text-decoration: none;
+    border-color: #4B3F2D;
+    color: white;
+    background-color: #4B3F2D;
+    height: 50px;
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Clarendon URW", sans-serif;
+    text-shadow: none;
+    font-size: 30;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
 
 }
 
 .btn:hover {
     background-color: #36BDB9;
-    border:#36BDB9;
-    color:#4B3F2D;
+    border: #36BDB9;
+    color: #4B3F2D;
 
 }
 
-.featuredbrews-title{
+.featuredbrews-title {
     justify-content: center;
     padding-top: 60px;
-    color:#4B3F2D;
+    color: #4B3F2D;
     font-family: "Hand of Sean", sans-serif;
-      
+
 }
 
 /* Find Our Beer hero image */
@@ -331,36 +317,32 @@ text-decoration: none;
 
 @media (max-width: 1223px) {
     .nav li {
-        font-size: 14pt;}
-
+        font-size: 14pt;
+    }
 }
 
 @media (max-width: 910px) {
     .nav li {
         padding: 0 20px;
         font-size: 14pt;
-        
-        }
-
+    }
 }
+
 @media (max-width: 750px) {
     .nav li {
         padding: 0 20px;
         font-size: 14pt;
-        }
-    .hideMenu{
+    }
+
+    .hideMenu {
         display: none;
     }
-}
-@media (min-width: 910px) {
-    .hideMenuMobile {
-        display: none;
-    }
-    .navbar-toggler{
-        display: none;}
-    }
-    #navbarToggleExternalContent{
-        display: none;
-    } 
 }
 
+@media (min-width: 910px) {
+    .hideMenuMobile,
+    .navbar-toggler,
+    #navbarToggleExternalContent {
+        display: none;
+    }
+}
