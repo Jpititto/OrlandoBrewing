@@ -365,7 +365,7 @@ li {
 }
 
 .eventsPage{
-    padding-top: 12rem;
+    padding-top: 8rem;
 }
 
 .accordion-button{
@@ -376,4 +376,8 @@ li {
 
 .eventsBottom{
     padding-top: 18rem;
+}
+
+.eventsPageTop{
+    padding-top: 8rem;
 }
