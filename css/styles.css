@@ -327,9 +327,6 @@ li {
         padding: 0 20px;
         font-size: 14pt;
     }
-    .hero-content {
-        font-size: 26pt;
-
 }
 
 @media (max-width: 750px) {
@@ -341,10 +338,6 @@ li {
     .hideMenu {
         display: none;
     }
-
-    /* .hero-content {
-        font-size: 20pt;
-    } */
 }
 
 @media (min-width: 910px) {
@@ -353,7 +346,6 @@ li {
     #navbarToggleExternalContent {
         display: none;
     }
-    
 }
 
 .topMenu{
@@ -387,5 +379,5 @@ li {
 }
 
 .eventsPageTop{
-    padding-top: 8rem;
+    padding-top: 10rem;
 }
