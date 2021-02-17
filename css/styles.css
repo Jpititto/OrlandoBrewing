@@ -342,9 +342,9 @@ li {
         display: none;
     }
 
-    .hero-content {
+    /* .hero-content {
         font-size: 20pt;
-    }
+    } */
 }
 
 @media (min-width: 910px) {
