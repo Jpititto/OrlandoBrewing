@@ -338,6 +338,12 @@ li {
     .hideMenu {
         display: none;
     }
+
+    .hero-content{
+        font-size: 14px;
+    }
+
+
 }
 
 @media (min-width: 910px) {
